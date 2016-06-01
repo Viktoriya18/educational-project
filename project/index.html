@@ -11,7 +11,7 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/semantic/dist/semantic.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/slick-carousel/slick/slick.js"></script>
     <script src="bower_components/angular-slick/dist/slick.js"></script>
     <script type="text/javascript" src="bower_components/ng-sortable/dist/ng-sortable.min.js"></script>
@@ -22,11 +22,11 @@
     <div id="base-content">
         <div class="content">
             <div class="content__nav-button">
-                <a href="#/"><input type="image" src="img/home.svg" alt="Submit" class="button button--left"></a>
-                <a href="#/about/"><input type="image" src="img/sun.png" alt="Submit" class="button button--right"></a>
+                <a ui-sref="home"><input type="image" src="img/home.svg" alt="Submit" class="button button--left"></a>
+                <a ui-sref="about"><input type="image" src="img/sun.png" alt="Submit" class="button button--right"></a>
                 <a href=""><input type="image" src="img/abc.png" alt="ABC" class="button button--abc"></a>
             </div>
-            <div ng-view></div>
+            <div ui-view></div>
             <div class="content__footer">
                 <div class="ui large menu">
                     <a class="item item--blue" id="items"><i class="facebook icon"></i></a>

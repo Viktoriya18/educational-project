@@ -24,9 +24,9 @@
         width: $width;
 }
 @mixin image_width {
-  img {
-    width: 100%;
-  }
+        img {
+          width: 100%;
+        }
 }
 
 
@@ -112,9 +112,6 @@
         margin-top: 200px;
       }
     .content__showLanguage {
-      slick {
-        
-      }
       margin: 0 12%;
     }
     .content__showVision {
@@ -128,9 +125,7 @@
         display: flex;
         width: 60%;
         margin: 0 19%;
-        img {
-          width: 100%;
-        }
+        @include image_width;
       }
     }
     .content__shadow {

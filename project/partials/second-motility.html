@@ -1,0 +1,17 @@
+<h1>Maybe your child can arrange everything in its place!</h1>
+                        <div class="col-sm-6 col-xs-6" ng-repeat="column in vm.items.columns">
+                            <div class="column">
+                                <ul class="cards card-list" as-sortable="vm.dragControlListeners" data-ng-model="column.cards">
+                                    <li class="card" ng-repeat="card in column.cards" as-sortable-item>
+                                        <div as-sortable-item-handle>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <img class="image" ng-src='{{card.url}}'>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="content__shadow"><img src="img/shadow.png"></div>

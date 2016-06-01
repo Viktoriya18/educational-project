@@ -1,32 +1,53 @@
 (function() {
 	    "use strict"
 	    angular
-	        .module('myApp', ['ngRoute', 'slick', 'as.sortable'])
-	        .config(['$routeProvider',
-	            function($routeProvider) {
-	                $routeProvider
-	                .when('/', {
-	                    templateUrl: 'partials/home.html',
-	                    controller: 'HomeController',
+	        .module('myApp', ['ui.router', 'slick', 'as.sortable'])
+	        .config(
+	            function($stateProvider, $urlRouterProvider) {
+	            	$urlRouterProvider.otherwise('/home');
+	                $stateProvider
+	                .state('home', {
+			            url: '/home',
+			            templateUrl: 'partials/home.html',
+			            controller: 'HomeController',
 	                    controllerAs: 'vm'
-	                })
-	                .when('/about/', {
-	                    templateUrl: 'partials/about.html',
-	                    controller: 'AboutController',
+			        })
+			        .state('about', {
+			            url: '/about',
+			            templateUrl: 'partials/about.html',
+			            controller: 'AboutController',
 	                    controllerAs: 'vm'
-	                })
-	                .when('/second/', {
-	                    templateUrl: 'partials/second.html',
-	                    controller: 'SecondController',
-	                    controllerAs: 'vm'
-	                })
-	                .when('/sixth/', {
-	                    templateUrl: 'partials/sixth.html',
-	                    controller: 'SixthController',
-	                    controllerAs: 'vm'
-	                })
-	                .otherwise({
-	                    redirectTo: '/'
-	                });
-	        }]);
+			        })
+			        .state('second', {
+			        	url: '/second',
+			        	templateUrl: 'partials/second.html',
+			        	controler: 'SecondController',
+			        	controllerAs: 'vm'
+			        })
+			        .state('second.language', {
+			        	url: '/language',
+			        	templateUrl: 'partials/second-language.html',
+			        	controler: 'SecondController',
+			        	controllerAs: 'vm'
+			        })
+			        .state('second.vision', {
+			        	url: '/vision',
+			        	templateUrl: 'partials/second-vision.html',
+			        	controler: 'SecondController',
+			        	controllerAs: 'vm'
+			        })
+			        .state('second.hearing', {
+			        	url: '/hearing',
+			        	templateUrl: 'partials/second-hearing.html',
+			        	controler: 'SecondController',
+			        	controllerAs: 'vm'
+			        })
+			        .state('second.motility', {
+			        	url: '/motility',
+			        	templateUrl: 'partials/second-motility.html',
+			        	controler: 'SecondMotilityController',
+			        	controllerAs: 'vm'
+			        })
+
+	        });
 	})();
