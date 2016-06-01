@@ -5,7 +5,7 @@
         .controller("HomeController", HomeControllerFunc)
         .controller("AboutController", AboutControllerFunc)
         .controller("SecondController", SecondControllerFunc)
-        .controller("SecondMotilityControlle", SecondMotilityControllerFunc)
+        .controller("SecondMotilityController", SecondMotilityControllerFunc)
         .controller("SixthController", SixthControllerFunc)
 
         HomeControllerFunc.$inject = [];
@@ -48,7 +48,7 @@
         SecondMotilityControllerFunc.$inject = [];
         function SecondMotilityControllerFunc() {
             var vm = this;
-
+            console.log('tets')
              vm.dragControlListeners = {
                 containment: '#blocks' 
             };

@@ -21,31 +21,31 @@
 			        .state('second', {
 			        	url: '/second',
 			        	templateUrl: 'partials/second.html',
-			        	controler: 'SecondController',
+			        	controller: 'SecondController',
 			        	controllerAs: 'vm'
 			        })
 			        .state('second.language', {
 			        	url: '/language',
 			        	templateUrl: 'partials/second-language.html',
-			        	controler: 'SecondController',
+			        	controller: 'SecondController',
 			        	controllerAs: 'vm'
 			        })
 			        .state('second.vision', {
 			        	url: '/vision',
 			        	templateUrl: 'partials/second-vision.html',
-			        	controler: 'SecondController',
+			        	controller: 'SecondController',
 			        	controllerAs: 'vm'
 			        })
 			        .state('second.hearing', {
 			        	url: '/hearing',
 			        	templateUrl: 'partials/second-hearing.html',
-			        	controler: 'SecondController',
+			        	controller: 'SecondController',
 			        	controllerAs: 'vm'
 			        })
 			        .state('second.motility', {
 			        	url: '/motility',
 			        	templateUrl: 'partials/second-motility.html',
-			        	controler: 'SecondMotilityController',
+			        	controller: 'SecondMotilityController',
 			        	controllerAs: 'vm'
 			        })
 
