@@ -125,7 +125,9 @@
         display: flex;
         width: 60%;
         margin: 0 19%;
-        @include image_width;
+        img {
+          width: 100%;
+        }
       }
     }
     .content__shadow {

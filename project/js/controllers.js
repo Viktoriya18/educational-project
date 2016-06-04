@@ -21,28 +21,6 @@
         SecondControllerFunc.$inject = [];
         function SecondControllerFunc() {
             var vm = this;
-
-            // vm.dragControlListeners = {
-            //     containment: '#blocks' 
-            // };
-            // vm.items = {
-            // "columns": [
-            //         {"name": "Ideas", "cards": [
-            //           {"url": "img/j.png"},
-            //           {"url": "img/l.png"},
-            //           {"url": "img/d.png"},
-            //           {"url": "img/p.png"},
-            //           {"url": "img/m.png"}
-            //         ]},
-            //         {"name": "Not started", "cards": [
-            //           {"url": "img/dog.png"},
-            //           {"url": "img/pig.png"},
-            //           {"url": "img/lion.png"},
-            //           {"url": "img/monkey.png"},
-            //           {"url": "img/juice.png"}
-            //         ]}
-            //       ]
-            // }
         }
 
         SecondMotilityControllerFunc.$inject = [];
