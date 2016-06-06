@@ -74,6 +74,8 @@
       margin-top: 200px; }
     #base-content .content .content__showLanguage {
       margin: 0 12%; }
+      #base-content .content .content__showLanguage .slick-prev {
+        margin-left: 235px; }
     #base-content .content .content__showVision {
       margin: 0 28%; }
     #base-content .content .content__showHearing {
@@ -125,7 +127,6 @@
           font-family: Lobster, cursive;
           font-size: 15px; }
     #base-content .content .content__link {
-      background-color: none;
       padding: 15% 10%;
       text-align: center; }
       #base-content .content .content__link .content__about--information {
