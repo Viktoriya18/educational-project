@@ -130,16 +130,25 @@
         margin-top: 200px;
       }
     .content__showLanguage {
-      margin: 0 12%;
-      .slick-prev{
+      margin: 0 13%;
+      .slick-prev {
         margin-left: 235px;
       }
     }
     .content__showVision {
       margin: 0 28%;
+      .slick-track {
+        transform: translate3d(0px, 0px, 0px);
+      }
+      .slick-prev {
+        margin-left: 70px;
+      }
     }
     .content__showHearing {
       margin: 3% 36%;
+      .slick-prev {
+        margin-left: -9px;
+      }
     }
     .content__showMotility {
       .content__showMotility--drag {
