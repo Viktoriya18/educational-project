@@ -131,23 +131,23 @@
       }
     .content__showLanguage {
       margin: 0 13%;
-      .slick-prev {
-        margin-left: 235px;
+      .img_div {
+        width: 100%;
+      }
+      .slick-next {
+        float: right;
       }
     }
     .content__showVision {
       margin: 0 28%;
-      .slick-track {
-        transform: translate3d(0px, 0px, 0px);
-      }
-      .slick-prev {
-        margin-left: 70px;
+      .slick-next {
+        float: right;
       }
     }
     .content__showHearing {
       margin: 3% 36%;
-      .slick-prev {
-        margin-left: -9px;
+      .slick-next {
+        float: right;
       }
     }
     .content__showMotility {
