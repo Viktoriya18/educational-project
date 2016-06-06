@@ -124,6 +124,25 @@
           color: #660000;
           font-family: Lobster, cursive;
           font-size: 15px; }
+    #base-content .content .content__link {
+      background-color: none;
+      padding: 15% 10%;
+      text-align: center; }
+      #base-content .content .content__link .content__about--information {
+        border: 2px solid #acacac;
+        border-radius: 3px;
+        box-shadow: 3px 3px 6px 2px #acacac;
+        padding: 30px 70px; }
+        #base-content .content .content__link .content__about--information .content__about--header {
+          color: #660000;
+          font-family: Lobster, cursive;
+          font-size: 15px;
+          font-size: 35px;
+          margin-top: 45px; }
+        #base-content .content .content__link .content__about--information p {
+          color: #660000;
+          font-family: Lobster, cursive;
+          font-size: 15px; }
     #base-content .content .content__footer .item::before {
       width: 0px; }
     #base-content .content .content__footer .item--blue {
