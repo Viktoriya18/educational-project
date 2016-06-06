@@ -23,7 +23,8 @@
       top: 100px; }
       #base-content .content .content__nav-menu .nav-menu__image {
         list-style: none;
-        display: inline-flex; }
+        display: inline-flex;
+        margin: 0 5%; }
         #base-content .content .content__nav-menu .nav-menu__image li .title {
           color: #660000;
           font-family: Lobster, cursive;

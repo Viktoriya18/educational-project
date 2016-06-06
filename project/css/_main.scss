@@ -55,6 +55,7 @@
         top: 100px;
         .nav-menu__image {
           @include style_none;
+          margin: 0 5%;
           li {
             .title {
               @include text_information;
